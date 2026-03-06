@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Картинная галерея
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(157, 203, 234);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://zvetnoe.ru/upload/images/blog/135_Peizazhnaya_zhivopis_istorya_osnovnye_vidy_i_stili/0.jpg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(206, 244, 146);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Картинная галерея </h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">Об авторах</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">Об авторах</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Правый сайдбар c новостями о работе и выставках </p>
+             </div>
+            <div id="main">
+                <p>МУЗЕЙ (от др. -греч. "муза" ) - учреждение, занимающееся собиранием, хранением и выставкой чего-либо.Впервые музеи возникли в Древней Греции.</p>
+                <p>История музеев в России восходит к XVI-XVII вв. Первой их формой было накопление в ризницах крупных монастырей, в царских дворцах и домах знати
+                     искусно выполненных культовых и бытовых предметов из драгоценных металлов, произведений живописи, рукописных и старопечатных книг и т. п. 
+                     Результатом такого собирательства были собрания Оружейной палаты в Московском Кремле, которая уже в XVI в. была широко известна не только в стране, 
+                     но и за рубежом.к</p>
+                <p>Картинная галерея - это музей, в котором хранятся и экспонируются произведения живописи, которые являются собственностью музея. 
+                    Выставочные залы музея могут предоставляться для выставок из собраний картин другого музея.</p>
+                <p>Галереи могут быть муниципальные и частные занимать площадь почтового ящика или большую и располагать внушительной коллекцией экспонатов. Ориентироваться на виды искусства: изобразительного искусства, скульптуры, дизайна, декоративно-прикладного искусства.
+                    Выделяют галереи, направленные на цифровое искусство, которое основано на использовании компьютерных технологий.</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
